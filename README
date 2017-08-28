@@ -1,0 +1,1 @@
+This is a Docker base image which builds off of the scratch image and adds the root certificates for all of the standard certificate authorities.
