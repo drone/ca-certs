@@ -1,0 +1,8 @@
+pipeline:
+  publish:
+    image: plugins/docker
+    tags: [ latest ]
+    repo: drone/ca-certs
+    secrets: [docker_username, docker_password]
+
+
