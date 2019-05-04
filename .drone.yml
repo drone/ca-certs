@@ -4,5 +4,7 @@ pipeline:
     tags: [ latest ]
     repo: drone/ca-certs
     secrets: [docker_username, docker_password]
-
-
+    when:
+      event:
+        exclude:
+        - pull_request
